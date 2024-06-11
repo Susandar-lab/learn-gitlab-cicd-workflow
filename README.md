@@ -2,10 +2,10 @@
 ```bash
 ~$docker build -t pyyapp .
 ~$docker ps
-~$docker run -p 8080:8080 pyyapp -d
+~$docker run -p 80:8080 pyyapp -d
 ```
 
 Then access from browser
 
-[http://localhost:8080]
+[http://localhost:80]
 
