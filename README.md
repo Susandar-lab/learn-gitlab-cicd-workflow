@@ -9,6 +9,7 @@ Here is the system design of the project:
 
 ![System Design](./images/system-design.png)
 
+## Pyapp With only Docker 
 ```bash
 ~$docker build -t pyyapp .
 ~$docker ps
