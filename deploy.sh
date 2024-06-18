@@ -18,6 +18,7 @@ aws configure set region "ap-southeast-1"
 
 # Authenticate Docker to ECR
 #$(aws ecr get-login --no-include-email --region ap-southeast-1)
+newgrp docker
 aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin aws_account_id.dkr.ecr.ap-southeast-1.amazonaws.com
 
 # Pull Docker image from ECR
